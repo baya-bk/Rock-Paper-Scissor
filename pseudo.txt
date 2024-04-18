@@ -1,0 +1,65 @@
+/* 
+Algorithm
+
+1. Define a var to store user choice 
+
+2. Write input prompt to recieve users choice.
+
+3. Write a function that accepts three params(Rock, Paper, Scissor) and returns computers choice
+
+     Define array of three strings
+
+     Select one random array usin Math.random() function
+
+       Declare a var to store computers choice
+
+       Print computers choice using console.log()
+
+4. Define a var to store computer's choice
+ 
+5. Write a function that takes two parameter (playerSelection, computerSelection) plays single round of RPS game
+     
+    Make playersSelection case insensetive
+
+     IF users' choice is the same as computers' choice
+       
+       PRINT that the game is a tie
+
+     ELSE IF (user chose Paper and computer chose  Rock)
+
+       PRINT user won
+       return "user"
+
+     ELSE IF user chose Rock and computer chose scissor 
+
+       PRINT user won
+       return "user"
+
+     ELSE IF user chose Scissor and computer chose Paper 
+
+       PRINT user won
+       return "user"
+
+    ELSE
+
+       PRINT computer won
+       return "computer"
+     
+    
+
+6. Write a function that iterates and calls playRound function and declares the winner
+   
+   Call the previous functions five times
+   count how many times a user or a computer won and compare them
+   if user won more than a computer print "You won :)"
+   else print "Computer won :("
+
+7. 
+
+
+You Lose! Paper beats Rock
+You Lose! Scissor beats Paper
+You Lose! Rock beats Scissor
+
+You won! 
+*/
