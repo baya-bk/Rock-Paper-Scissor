@@ -56,7 +56,6 @@ Algorithm
 
 7. 
 
-
 You Lose! Paper beats Rock
 You Lose! Scissor beats Paper
 You Lose! Rock beats Scissor
