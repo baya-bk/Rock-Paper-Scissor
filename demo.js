@@ -1,66 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock-Paper-Scissors Game</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <section class="container">
-      <div class="header">
-        <div class="logo">RPS</div>
-        <div class="right-side">
-          <ul>
-            <li><a href="">Help</a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="game-container">
-        <div class="game-info-title">ROCK-PAPER-SCISSOR GAME</div>
-        <div class="game-info-container">
-          <div class="choice-container">
-            <div class="choice">
-              <button id="rock">
-                <img src="image/rock.png" alt="Rock" />
-              </button>
-            </div>
-            ROCK
-          </div>
-          <div class="choice-container">
-            <div class="choice">
-              <button id="paper">
-                <img src="image/paper.png" alt="Paper" />
-              </button>
-            </div>
-            PAPER
-          </div>
-          <div class="choice-container">
-            <div class="choice">
-              <button id="scissors">
-                <img src="image/scissor.png" alt="Scissors" />
-              </button>
-            </div>
-            SCISSORS
-          </div>
-        </div>
-      </div>
-    </section>
-    <script src="demo.js"></script>
-  </body>
-</html>
-
-<!-- 
 const rockButton = document.getElementById("rock");
 const paperButton = document.getElementById("paper");
 const scissorsButton = document.getElementById("scissors");
@@ -77,8 +14,6 @@ function getComputer() {
   const compChoice = Math.floor(Math.random() * choices.length);
   return choices[compChoice];
 }
-
-// Assuming container with ID "game-container" exists in the HTML
 const container = document.querySelector(".game-container");
 const bigDiv = document.createElement("div");
 bigDiv.classList.add("bigDiv");
@@ -121,7 +56,8 @@ function playRound(playerSelection, computerSelection) {
       return "computer";
     }
   }
-  innerPara.textContent = "Invalid choice. Please choose Rock, Paper, or Scissors.";
+  innerPara.textContent =
+    "Invalid choice. Please choose Rock, Paper, or Scissors.";
   return "invalid";
 }
 
@@ -135,7 +71,6 @@ function playGame(playerSelection) {
   }
   declareWinner(user_score, comp_score);
 }
-
 function declareWinner(user_score, comp_score) {
   if (user_score > comp_score) {
     innerPara.textContent = "Congrats! You Won!";
@@ -144,4 +79,4 @@ function declareWinner(user_score, comp_score) {
   } else {
     innerPara.textContent = "It's a tie game!";
   }
-} -->
+}

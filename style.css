@@ -1,0 +1,67 @@
+body {
+  background-color: #f9e400; /* You can use color names, HEX, RGB, etc. */
+  color: #021526; /* This will set the text color */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+/* .press-start-2p-regular {
+ 
+} */
+.container {
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+.right-side {
+  font-size: 18px;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.game-info-title {
+  margin-top: 30px;
+}
+.game-info-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+p,
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: larger;
+  font-variation-settings: "wdth" 100;
+}
+.choice {
+  padding: 16px;
+  margin: 16px;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+.choice-container {
+  max-width: 500px;
+}
